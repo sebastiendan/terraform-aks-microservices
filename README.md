@@ -1,5 +1,8 @@
 # terraform-aks-microservices
 
+## What is this?
+An all inclusive terraform recipe for micro-services architecture deployed on Kubernetes (AKS), from ECR docker images (AWS), with Route53 DNS records (AWS), Traefik load balancer, Let's Encrypt SSL certs, MySQL one-DB-per-microservice, blob storage
+
 ## Run the whole stack (e. g. in a CI pipelines)
 
             - # docker login
